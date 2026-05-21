@@ -39,7 +39,7 @@ public class Zona {
     private BigDecimal loteMinimo;
 
     @OneToMany(mappedBy = "zona", cascade = CascadeType.ALL)
-    private List<UsoPermitido> usosPermiditos;
+    private List<UsoPermitido> usosPermitidos;
 
 
 
